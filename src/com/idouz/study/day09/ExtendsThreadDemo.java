@@ -4,6 +4,7 @@ package com.idouz.study.day09;
  * @author idouz
  * @version 1.0
  * @date 2019/7/12 11:10
+ * 方式1：继承Thread类
  */
 public class ExtendsThreadDemo {
     public static void main(String[] args) {
