@@ -27,7 +27,7 @@ public class ExtendsThreadDemo {
 class MusicThread extends java.lang.Thread{
     @Override
     public void run() {
-        super.run();
+        //super.run();
         for (int i = 0; i < 50; i++) {
             System.out.println("听音乐"+i);
         }

@@ -14,17 +14,18 @@ public class ImplementsRunnableDemo {
         new Thread(new MusicThread()).start();
         //游戏
         for (int i = 0; i < 50; i++) {
-            System.out.println("打游戏"+i);
-            if(i==10){
+            System.out.println("打游戏" + i);
+            if (i == 10) {
                 //创建线程并启动
-                Runnable target= new MusicRunnable();
+                Runnable target = new MusicRunnable();
                 Thread t = new Thread(target);
                 t.start();
             }
         }
     }
 }
-class MusicRunnable implements Runnable{
+
+class MusicRunnable implements Runnable {
 
     @Override
     public void run() {
