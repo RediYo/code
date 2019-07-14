@@ -20,7 +20,7 @@ public class SleepDemo {
     }
 }
 class Apple implements Runnable{
-    private Integer nums=50;
+        private Integer nums=50;
 
     @Override
     public void run() {
